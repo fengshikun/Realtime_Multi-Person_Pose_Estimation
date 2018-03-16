@@ -2058,7 +2058,7 @@ layer {
     decay_mult: 1
   }
   convolution_param {
-    num_output: 384
+    num_output: 64
     bias_term: false
     kernel_size: 1
     weight_filler {
