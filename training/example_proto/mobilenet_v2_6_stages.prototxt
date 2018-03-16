@@ -8,8 +8,8 @@ layer {
   top: "data"
   top: "label"
   data_param {
-    source: "/home/zhecao/COCO_kpt/lmdb_trainVal"
-    batch_size: 10
+    source: "/HDDONE/Dataset/Pose/lmdb_trainVal"
+    batch_size: 5
     backend: LMDB
   }
   cpm_transform_param {
